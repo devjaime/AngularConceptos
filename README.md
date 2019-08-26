@@ -1,5 +1,5 @@
-##Proyecto Clone de Mercado Libre
-- Conceptos generales de Angular para repasar
+##Conceptos generales de Angular para repasar
+
 #### Instalaciones necesarias
 - node v10 LTS en adelante https://nodejs.org/es/.
 - revisar versión de node y npm en caso de ya tener instalado node, npm -v y node -v.
