@@ -1,4 +1,4 @@
-###Conceptos generales de Angular para repasar
+## Conceptos generales de Angular para repasar
 
 #### Instalaciones necesarias
 - node v10 LTS en adelante https://nodejs.org/es/.
