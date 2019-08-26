@@ -59,3 +59,33 @@
 #### Angular
 - Creación de nuevos proyectos ng new {nombre proyecto}
 - Ejecutar aplicación Angular ng serve -o --port 4444 {o es de open para abrir el browser y port en caso que el puerto este ocupado}
+- Interpolacion de variables {{}}
+#### carpetas de angular
+- e2e carpeta para pruebas End To End pruebas de extremo a extremo.
+- node_modules - paquetes npm que se instalan en forma automática con el fin de desarrollo. 
+- src - es donde se almacenan los archivos para crear nuestra aplicación en Angular.
+- .editorconfig - son configuraciones del editor (vs code).
+- .gitignore - ignora las carpetas que no se deben versionar.
+- package-lock.json es un historial de como se crea el package.json
+- package.json es un archivo que registra las dependencias npm
+- README.md: es para documentar la aplicación.
+- tsconfig.json configuración de typescript
+- tslink.json reglas para tslink
+- index.html es una pagina web común, renderiza el <app-root>
+- componente app.component.html codigo html
+- componente app.component.spect pruebas automaticas
+- componente app.component.ts archivo typescript
+- componente app-modules.ts
+- Carpeta assets donde se almacenan los recursos
+- carpeta environment archivos de desarrollo y producción
+- browserlist para compatibilidad de css
+- karma archivo de configuracion de pruebas de cargas
+- main.ts es la primera pagina que carga Angular 
+- polyfills.ts ayuda con la compatibilidad con navegadores antiguos
+- styples.css archivos de css globales
+## Agregando estilos
+Bootsrapp https://getbootstrap.com/docs/4.3/getting-started/download/
+
+## Tips
+ apostrofes template literales [``]
+
