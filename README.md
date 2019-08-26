@@ -40,3 +40,18 @@
 * TSLint VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-tslint-plugin
 * TypeScript Hero VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=rbbit.typescript-hero
 * TypeScript Importer VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=pmneo.tsimporter
+
+#### TypeScript ES6
+* variable let y const.
+* tipos de datos en Typescript.
+* Template litares en ES6.
+* Funciones: Parametros opcionales, obligatorios y por defecto.
+* Funciones de flecha.
+* Destructuración de arreglos y objetos.
+* Promesas en ES6.
+* Interfaces en Typescript.
+* Clases POO.
+* Definición de una clase base en Typescript.
+* Constructores de una clase en TypeScript.
+* Módulos en Typescript.
+* Decoradores en TypeScript.
