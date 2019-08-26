@@ -55,3 +55,7 @@
 * Constructores de una clase en TypeScript.
 * Módulos en Typescript.
 * Decoradores en TypeScript.
+
+#### Angular
+- Creación de nuevos proyectos ng new {nombre proyecto}
+- Ejecutar aplicación Angular ng serve -o --port 4444 {o es de open para abrir el browser y port en caso que el puerto este ocupado}
