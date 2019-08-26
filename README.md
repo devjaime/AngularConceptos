@@ -8,5 +8,13 @@
 - Instalación de Angular CLI (npm install -g @angular/cli) (siempre en ventana como administrador).
 - Solucion de errores en Mac (sudo npm install --unsafe -perm -g @angular/cli).
 - para confirmar instalación angular CLI comando (ng -v) versión sobre la 6.0. 
+- para instalar ionic (npm install -g ionic)
 
+#### Instalaciones de visual studio code snipper
+- link de descarga https://code.visualstudio.com/
 
+Name: Angular 2 TypeScript Emmet
+* VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=jakethashi.vscode-angular2-emmet
+Name: Angular 8 Snippets - TypeScript, Html, Angular Material, ngRx, RxJS & Flex Layout
+Description: 242 Angular Snippets (TypeScript, Html, Angular Material, Flex Layout, ngRx, RxJS, PWA & Testing) Updated for v8 Beta
+* VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=Mikael.Angular-BeastCode
