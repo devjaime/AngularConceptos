@@ -138,3 +138,16 @@ se configura archivo angular.json Style y Script
 
 ## @input como recibir información de un componente padre a un componente hijo
 ## @output emitir eventos seleccionados
+
+## PIPE nuevamente más a fondo
+- Pipes uppercase y lowercase
+- Pipe Slice
+- Pice Decimal
+- Pipe Percent
+- Pipe Currency
+- Pipe Json
+- Pipe Async
+- Pipe Date
+- Pipes personalizados
+- Capitalizar palabras y nombres
+- Creación de un pipe, que permite cargar recursos externos de forma segura.
