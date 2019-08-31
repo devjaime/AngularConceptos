@@ -93,8 +93,8 @@ Bootsrapp https://getbootstrap.com/docs/4.3/getting-started/download/
  ng g c components/footer (carpeta/componente)
 
  ## directivas estructurales
- *ngIf  puede contener una condición para mostrar o no mostrar un elemento, el elemento desaparece completamente del dom ejemplo= <div *ngIf="mostrar" class="card text-white bg-primary mb-3" style="width: 100%;">
- *ngFor se ocupa para recorrer una lista puede ejemplo= <li *ngFor="let personaje of personajes; let i = index" class="list-group-item">{{i + 1}} - {{personaje}}</li>
+ - *ngIf  puede contener una condición para mostrar o no mostrar un elemento, el elemento desaparece completamente del dom ejemplo= <div *ngIf="mostrar" class="card text-white bg-primary mb-3" style="width: 100%;">
+ - *ngFor se ocupa para recorrer una lista puede ejemplo= <li *ngFor="let personaje of personajes; let i = index" class="list-group-item">{{i + 1}} - {{personaje}}</li>
 
  ## Aplicación de una sola pagina SLA
 1-Crearemos una aplicación de una sola página (Single Page Application)
@@ -123,4 +123,11 @@ se configura archivo angular.json Style y Script
 - snipper para import ng-import -> genera importación 
 - {useHash: true} en router para generar ruta de forma antigua funciona con paso de parametros http://localhost:4200/#/home
 
+## introducción a los servicios
+- Brindar información a quien lo necesite
+- Realizar peticiones CRUD (create, read, update, delete).
+- Mantener la data de forma persistente.
+- Servir como recurso re-utlizable para nuestra aplicación.
+
+- snipper ng-service -> genera el esqueleto del servicios
 
