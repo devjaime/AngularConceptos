@@ -130,3 +130,5 @@ se configura archivo angular.json Style y Script
 - Servir como recurso re-utlizable para nuestra aplicación.
 
 - snipper ng-service -> genera el esqueleto del servicios
+
+## Pipe transformación visual de data
