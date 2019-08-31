@@ -137,3 +137,4 @@ se configura archivo angular.json Style y Script
 - (--spec=false) para no generar arhivo de pruebas unitarias
 
 ## @input como recibir información de un componente padre a un componente hijo
+## @output emitir eventos seleccionados
