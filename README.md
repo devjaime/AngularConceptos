@@ -114,3 +114,9 @@ instalación de bootstrap
 
 se configura archivo angular.json Style y Script
 
+## configurando el navbar y otros componentes
+- ng g c components/[component] -is  "is" no genera el archivo de estilos
+- snipper para crear rutas ng-routes -> genera rutas
+- snipper para import ng-import -> genera importación 
+- {useHash: true} en router para generar ruta de forma antigua funciona con paso de parametros http://localhost:4200/#/home
+
