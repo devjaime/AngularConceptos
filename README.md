@@ -132,3 +132,8 @@ se configura archivo angular.json Style y Script
 - snipper ng-service -> genera el esqueleto del servicios
 
 ## Pipe transformación visual de data
+
+## otros tips
+- (--spec=false) para no generar arhivo de pruebas unitarias
+
+## @input como recibir información de un componente padre a un componente hijo
