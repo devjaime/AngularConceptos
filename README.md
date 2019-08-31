@@ -96,3 +96,21 @@ Bootsrapp https://getbootstrap.com/docs/4.3/getting-started/download/
  *ngIf  puede contener una condición para mostrar o no mostrar un elemento, el elemento desaparece completamente del dom ejemplo= <div *ngIf="mostrar" class="card text-white bg-primary mb-3" style="width: 100%;">
  *ngFor se ocupa para recorrer una lista puede ejemplo= <li *ngFor="let personaje of personajes; let i = index" class="list-group-item">{{i + 1}} - {{personaje}}</li>
 
+ ## Aplicación de una sola pagina SLA
+1-Crearemos una aplicación de una sola página (Single Page Application)
+2- Creación de proyectos de Angular usando el CLI (Command Line Interface)
+3- Instalando bootstrap o librerías de terceros usando el Angular-CLI
+4- Creación de rutas de nuestra aplicación
+5- Uso de RouterLink y RouterLinkActive para movernos de página y colocar clases a los elementos activos.
+6- Uso del modulo Router, que nos permite movernos de página mediante código.
+7- Obtención de parámetros vía URL.
+8- Configuración de nuestro primer servicio en Angular para el manejo de la data.
+8- Breve introducción a los Pipes 
+9- Uso del buscador del navbar para realizar una consulta a nuestro arreglo de héroes.
+instalación de bootstrap
+- npm install bootstrap --save
+- npm install jquery --save 
+- npm install popper.js --save
+
+se configura archivo angular.json Style y Script
+
