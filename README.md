@@ -89,3 +89,10 @@ Bootsrapp https://getbootstrap.com/docs/4.3/getting-started/download/
 ## Tips
  apostrofes template literales [``]
 
+ ## Generacion automática de componentes
+ ng g c components/footer (carpeta/componente)
+
+ ## directivas estructurales
+ *ngIf  puede contener una condición para mostrar o no mostrar un elemento, el elemento desaparece completamente del dom ejemplo= <div *ngIf="mostrar" class="card text-white bg-primary mb-3" style="width: 100%;">
+ *ngFor se ocupa para recorrer una lista puede ejemplo= <li *ngFor="let personaje of personajes; let i = index" class="list-group-item">{{i + 1}} - {{personaje}}</li>
+
