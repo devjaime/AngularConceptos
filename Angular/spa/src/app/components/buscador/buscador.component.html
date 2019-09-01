@@ -1,6 +1,6 @@
 <h1>Buscando: <small>{{ termino }} </small></h1>
 <hr>
-<div class="row animated shake" *ngIf="heroes.length == 0">
+<div class="row animated shake" *ngIf="payasos.length == 0">
     <div class="col-md-12 animated shake">
         <div class="alert alert-info" role="alert">
             No existen resultados con el término: {{ termino }}
@@ -8,5 +8,5 @@
     </div>
 </div>
 <div class="card-columns">
-    <app-heroe-tarjeta [heroe]="heroe" [index]="heroe.idx" *ngFor="let heroe of heroes"></app-heroe-tarjeta>
+    <app-payaso-tarjeta [payaso]="payaso" [index]="payaso.idx" *ngFor="let payaso of payasos"></app-payaso-tarjeta>
 </div>

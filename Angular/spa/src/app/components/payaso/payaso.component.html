@@ -1,0 +1,25 @@
+<h1 class="animated  bounce">{{payaso.nombre | uppercase }} </h1>
+<hr>
+<div class="row animated rubberBand">
+    <div class="col-md-4">
+        <img [src]="payaso.img" class="img-fluid" [alt]="payaso.nombre">
+        <br><br>
+        <a [routerLink]="['/payasos']" class="btn btn-outline-danger btn-block">Regresar...</a>
+
+    </div>
+    <div class="col-md-8">
+        <h3>{{ payaso.nombre }}</h3>
+        <hr>
+        <p>
+            {{ payaso.bio }}
+        </p>
+        <div>
+            <img *ngIf="payaso.casa=='JOKER'" class="img-logo" src="assets/img/joker-logo.png" alt="JOKER">
+            <img *ngIf="payaso.casa=='KILLER'" class="img-logo" src="assets/img/killerklowns.png" alt="KILLER">
+            <img *ngIf="payaso.casa=='KING'" class="img-logo" src="assets/img/StephenKing.png" alt="KING">
+            <img *ngIf="payaso.casa=='Marvel'" class="img-logo" src="assets/img/marvel-logo.png" alt="Marvel">
+            <img *ngIf="payaso.casa=='DC'" class="img-logo" src="assets/img/dc-logo.png" alt="DC">
+        </div>
+    </div>
+
+</div>

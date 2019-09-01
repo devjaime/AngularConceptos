@@ -1,8 +1,8 @@
 import { Injectable } from '@angular/core';
 
 @Injectable()
-export class HeroesService {
-    private heroes: Heroe[] = [
+export class PayasosService {
+    private payasos: Payaso[] = [
         {
           nombre: "IT (ESO) El Payaso",
           bio: "It (titulada: It (Eso) en Hispanoamérica) es una película de 2017 producida por New Line Cinema, KatzSmith Productions, Lin Pictures y Vertigo Entertainment, y distribuida por Warner Bros. Pictures.8​ Es la segunda adaptación de la novela homónima de Stephen King y está destinada a ser la primera entrega de una duología planificada. La novela fue adaptada previamente en una miniserie de 1990.9​ La película cuenta la historia de siete niños en Derry, Maine, que son aterrorizados por un ser epónimo, solo para hacer frente a sus propios demonios personales en el proceso",
@@ -115,34 +115,34 @@ export class HeroesService {
         console.log('Servicio listo para ussar!!');
     }
 
-    getHeroes(): Heroe [] {
-      return this.heroes;
+    getPayasos(): Payaso [] {
+      return this.payasos;
     }
 
-    getHeroe(idx: string) {
-      return this.heroes[idx];
+    getPayaso(idx: string) {
+      return this.payasos[idx];
     }
 
-    buscarHeroes( termino: string): Heroe[] {
-      let heroeArr: Heroe[] = [];
+    buscarPayasos( termino: string): Payaso[] {
+      let payasoArr: Payaso[] = [];
       termino = termino.toLowerCase();
 
-      for(let i = 0; i < this.heroes.length; i++ ) {
+      for(let i = 0; i < this.payasos.length; i++ ) {
 
-        let heroe = this.heroes[i];
+        let payaso = this.payasos[i];
 
-        let nombre = heroe.nombre.toLowerCase();
+        let nombre = payaso.nombre.toLowerCase();
 
         if (nombre.indexOf( termino) >= 0 ) {
-          heroe.idx = i;
-          heroeArr.push( heroe );
+          payaso.idx = i;
+          payasoArr.push( payaso );
         }
       }
-      return heroeArr;
+      return payasoArr;
     }
 }
 
-export interface Heroe{
+export interface Payaso{
       nombre: string;
       bio: string;
       img: string;

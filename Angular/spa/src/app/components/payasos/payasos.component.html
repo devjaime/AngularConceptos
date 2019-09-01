@@ -1,0 +1,7 @@
+<h1>Payasos <small>Geniales de la historia</small></h1>
+<hr>
+
+<div class="card-columns">
+    <!--*ngFor="let payaso of payasos; let i = index"-->
+    <app-payaso-tarjeta (payasoSeleccionado)="verPayaso( $event)" [payaso]="payaso" [index]="i" *ngFor="let payaso of payasos; let i = index"></app-payaso-tarjeta>
+</div>

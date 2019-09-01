@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import { HeroesService } from '../../servicios/heroes.service';
+import { PayasosService } from '../../servicios/payasos.service';
 
 @Component({
   selector: 'app-buscador',
@@ -8,21 +8,21 @@ import { HeroesService } from '../../servicios/heroes.service';
 })
 export class BuscadorComponent implements OnInit {
 
-  heroes: any[] = []
+  payasos: any[] = []
   termino: string;
   constructor(private activatedroute: ActivatedRoute,
-              private _heroesService: HeroesService,
+              private _payasosService: PayasosService,
               private router: Router) { }
 
   ngOnInit() {
     this.activatedroute.params.subscribe(params => {
       this.termino = params['termino'];
-      this.heroes = this._heroesService.buscarHeroes( params['termino'] );
-      console.log(this.heroes);
+      this.payasos = this._payasosService.buscarPayasos( params['termino'] );
+      console.log(this.payasos);
     });
   }
   
-  verHeroe(idx: number) {
-    this.router.navigate( ['/heroe', idx]);
+  verPayaso(idx: number) {
+    this.router.navigate( ['/payaso', idx]);
   }
 }

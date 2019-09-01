@@ -1,0 +1,10 @@
+<div class="card animated  jello infinite delay-4s">
+    <img [src]="payaso.img" class="card-img-top" [alt]="payaso.nombre">
+    <div class="card-body">
+        <h5 class="card-title">{{ payaso.nombre }}</h5>
+        <p class="card-text">{{ payaso.bio }}</p>
+        <p class="card-text"><small class="text-muted">{{ payaso.aparicion }}</small></p>
+        <button (click)="verPayaso()" type="button" class="btn btn-outline-primary btn-block">Ver más...</button>
+        <!--<a [routerLink]="['/payaso',i]" class="btn btn-outline-primary btn-block">Ver más link...</a>-->
+    </div>
+</div>
