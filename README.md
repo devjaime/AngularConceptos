@@ -144,7 +144,7 @@ se configura archivo angular.json Style y Script
 - Pipe Slice
 - Pice Decimal
 - Pipe Percent
-- Pipe Currency
+- Pipe Currency por defecto al parecer muestra la letra euro o dolar
 - Pipe Json
 - Pipe Async
 - Pipe Date
