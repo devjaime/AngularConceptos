@@ -1,4 +1,4 @@
-<h1 class="animated  bounce">{{heroe.nombre | uppercase }} <small>({{heroe.aparicion | date:'y'}})</small></h1>
+<h1 class="animated  bounce">{{heroe.nombre | uppercase }} </h1>
 <hr>
 <div class="row animated rubberBand">
     <div class="col-md-4">
@@ -14,6 +14,9 @@
             {{ heroe.bio }}
         </p>
         <div>
+            <img *ngIf="heroe.casa=='JOKER'" class="img-logo" src="assets/img/joker-logo.png" alt="JOKER">
+            <img *ngIf="heroe.casa=='KILLER'" class="img-logo" src="assets/img/killerklowns.png" alt="KILLER">
+            <img *ngIf="heroe.casa=='KING'" class="img-logo" src="assets/img/StephenKing.png" alt="KING">
             <img *ngIf="heroe.casa=='Marvel'" class="img-logo" src="assets/img/marvel-logo.png" alt="Marvel">
             <img *ngIf="heroe.casa=='DC'" class="img-logo" src="assets/img/dc-logo.png" alt="DC">
         </div>
