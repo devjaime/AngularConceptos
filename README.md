@@ -40,7 +40,7 @@
 * TSLint VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-tslint-plugin
 * TypeScript Hero VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=rbbit.typescript-hero
 * TypeScript Importer VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=pmneo.tsimporter
-
+* Generacion de comentarios para funciones en javascript https://marketplace.visualstudio.com/items?itemName=jeremyljackson.vs-docblock
 #### TypeScript ES6
 * variable let y const.
 * tipos de datos en Typescript.
